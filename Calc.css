@@ -1,0 +1,50 @@
+
+
+table{
+	height: 700px;
+	width: 350px;
+	margin: auto;
+	margin-top: 250px;
+	padding: 20px;
+	background-color: black;
+	border-radius: 36px;
+}
+
+button{
+	border: none;
+	color: white;
+	width: 100px;
+	border-radius: 50%;
+	font-size: 60px;
+	padding:10px;
+	cursor: pointer;
+	background-color: #202020;
+}
+.grey{
+	background-color: #808080;
+	color: black;
+}
+.orange{
+	background-color: orange;
+	color: white;
+}
+
+td{
+	padding: 5px;
+}
+
+button:focus{
+	opacity: 55%;
+	transition-delay: 0.2;
+	transform: ease-out	;
+}
+
+input{
+	background-color: black;
+	border: none;
+	height: 100%;
+	width: 100%;
+	font-size: 100px;
+	color: white;
+	text-align: right;
+}
